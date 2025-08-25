@@ -24,7 +24,6 @@ A simple web app that combines:
 - [How to Use](#-how-to-use)
 - [Live Demo](#-live-demo)
 - [Screenshots](#-screenshots)
-- [Demo GIF](#-demo-gif)
 - [Features](#-features)
 - [Roadmap](#-roadmap)
 - [Contributing](#-contributing)
@@ -66,13 +65,6 @@ A simple web app that combines:
 
 ---
 
-## 🎥 Demo GIF
-<p align="center">
-  <img src="./screenshots/demo.gif" alt="App Demo" width="500"/>
-</p>
-
----
-
 ## ✨ Features
 - 🧮 Perform basic arithmetic operations.  
 - ⚖️ Convert weight between multiple units.  
@@ -87,9 +79,8 @@ A simple web app that combines:
 
 ## 🛣️ Roadmap
 - [ ] Add Scientific Calculator  
-- [ ] Add Temperature Converter  
-- [ ] Add History Save in LocalStorage  
-
+- [ ] Add Temperature Converter
+- [ ] 
 ---
 
 ## 🤝 Contributing
@@ -104,10 +95,9 @@ This project is licensed under the [MIT License](./LICENSE).
 ---
 
 ## 📬 Contact
-<p align="center">
-  <a href="https://github.com/your-username">GitHub</a> •
-  <a href="https://linkedin.com/in/your-profile">LinkedIn</a>
-</p>
+ [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:cornerofcodes00@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-muzammil-irshad-05b863333)
+[![TikTok](https://img.shields.io/badge/TikTok-000000?logo=tiktok&logoColor=white)](https://www.tiktok.com/@cornerofcodes)
 
 ---
 
