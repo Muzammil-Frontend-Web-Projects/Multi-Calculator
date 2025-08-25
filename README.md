@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./screenshots/Banner.png" alt="All-in-One Calculator Banner" width="600"/>
+  <img src="https://raw.githubusercontent.com/muzammil-frontend-web-projects/Multi-Calculator/main/screenshots/Banner.png" alt="All-in-One Calculator Banner" width="600"/>
 </p>
 
 # All-in-One Calculator
