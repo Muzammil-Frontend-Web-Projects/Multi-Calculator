@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Tools Collection</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: #333;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            color: white;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        
+        .project-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+        }
+        
+        .project-content {
+            padding: 25px;
+        }
+        
+        .project-title {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+        
+        .project-description {
+            color: #7f8c8d;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        
+        .project-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: background 0.3s ease;
+        }
+        
+        .project-link:hover {
+            background: #2980b9;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: white;
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 768px) {
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>All in one Calculator</h1>
+            <p class="subtitle">Currency, Standard & Weight Conversion Solutions</p>
+        </header>
+        
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-content">
+                    <h2 class="project-title">Currency Converter</h2>
+                    <p class="project-description">Convert between different currencies with real-time exchange rates.</p>
+                    <a href="/Currency Convertor/3. Currency convertor.html" class="project-link">Use Converter</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-content">
+                    <h2 class="project-title">Standard Calculator</h2>
+                    <p class="project-description">A simple calculator for basic arithmetic operations.</p>
+                    <a href="/Standard Calculator/Calculator index.html" class="project-link">Use Calculator</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-content">
+                    <h2 class="project-title">Weight Converter</h2>
+                    <p class="project-description">Convert between different weight units like kg, lbs, and ounces.</p>
+                    <a href="/Weight Coversion Calculator/2 Weight conversion.html" class="project-link">Use Converter</a>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>© 2025 Web Tools Collection. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
