@@ -14,8 +14,8 @@ A simple web app that combines:
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/your-username/all-in-one-calculator?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/your-username/all-in-one-calculator?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/Muzammil-Frontend-Web-Projects/Multi-Calculator?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Muzammil-Frontend-Web-Projects/Multi-Calculator?style=for-the-badge)
 
 ---
 
