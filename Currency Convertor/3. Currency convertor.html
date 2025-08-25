@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency convertor</title>
+    <link
+      rel="stylesheet"
+      href="/Currency Convertor/3. Currency convertor.css"
+    />
+    <script src="/Currency Convertor/3. currency convertor.js" defer></script>
+    <script src="/common side bar.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/9d33740bbe.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <div id="largeContainer">
+        <div>
+          <i id="barLines" class="fa-solid fa-bars"></i>
+          <div id="sideOptBar">
+            <ul>
+              <li>
+                <a href="/Standard Calculator/Calculator index.html"
+                  >Standard Calculator</a
+                >
+              </li>
+              <li>
+                <a href="/Weight Coversion Calculator/2 Weight conversion.html"
+                  >Weight Conversion Calculator</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Calculator -->
+        <div id="container">
+          <!-- Side options -->
+          <!-- Navigations -->
+          <div id="navigations">
+            <div>
+              <h3>Currency Convertor</h3>
+            </div>
+            <i id="historyIcon" class="fa-solid fa-history"></i>
+          </div>
+
+          <!-- Form (Input + buttons) -->
+          <!-- <form action="" id="form"> -->
+          <div id="inputContainer">
+            <!-- <input type="text"   name="" value="0" id="input" readonly /> -->
+            <div id="firstDropDownContainer">
+              <p id="firstDisplay">0</p>
+
+              <select required class="firstDropDown" id="currencySet1" name="currency">
+                <option selected value="USD">USD</option>
+                <option value="AED">AED</option>
+                <option value="AFN">AFN</option>
+                <option value="ALL">ALL</option>
+                <option value="AMD">AMD</option>
+                <option value="ANG">ANG</option>
+                <option value="AOA">AOA</option>
+                <option value="ARS">ARS</option>
+                <option value="AUD">AUD</option>
+                <option value="AWG">AWG</option>
+                <option value="AZN">AZN</option>
+                <option value="BAM">BAM</option>
+                <option value="BBD">BBD</option>
+                <option value="BDT">BDT</option>
+                <option value="BGN">BGN</option>
+                <option value="BHD">BHD</option>
+                <option value="BIF">BIF</option>
+                <option value="BMD">BMD</option>
+                <option value="BND">BND</option>
+                <option value="BOB">BOB</option>
+                <option value="BRL">BRL</option>
+                <option value="BSD">BSD</option>
+                <option value="BTN">BTN</option>
+                <option value="BWP">BWP</option>
+                <option value="BYN">BYN</option>
+                <option value="BZD">BZD</option>
+                <option value="CAD">CAD</option>
+                <option value="CDF">CDF</option>
+                <option value="CHF">CHF</option>
+                <option value="CLP">CLP</option>
+                <option value="CNY">CNY</option>
+                <option value="COP">COP</option>
+                <option value="CRC">CRC</option>
+                <option value="CUP">CUP</option>
+                <option value="CVE">CVE</option>
+                <option value="CZK">CZK</option>
+                <option value="DJF">DJF</option>
+                <option value="DKK">DKK</option>
+                <option value="DOP">DOP</option>
+                <option value="DZD">DZD</option>
+                <option value="EGP">EGP</option>
+                <option value="ERN">ERN</option>
+                <option value="ETB">ETB</option>
+                <option value="EUR">EUR</option>
+                <option value="FJD">FJD</option>
+                <option value="GBP">GBP</option>
+                <option value="GEL">GEL</option>
+                <option value="GHS">GHS</option>
+                <option value="GIP">GIP</option>
+                <option value="GMD">GMD</option>
+                <option value="GNF">GNF</option>
+                <option value="GTQ">GTQ</option>
+                <option value="GYD">GYD</option>
+                <option value="HKD">HKD</option>
+                <option value="HNL">HNL</option>
+                <option value="HRK">HRK</option>
+                <option value="HTG">HTG</option>
+                <option value="HUF">HUF</option>
+                <option value="IDR">IDR</option>
+                <option value="ILS">ILS</option>
+                <option value="INR">INR</option>
+                <option value="IQD">IQD</option>
+                <option value="IRR">IRR</option>
+                <option value="ISK">ISK</option>
+                <option value="JMD">JMD</option>
+                <option value="JOD">JOD</option>
+                <option value="JPY">JPY</option>
+                <option value="KES">KES</option>
+                <option value="KRW">KRW</option>
+                <option value="KWD">KWD</option>
+                <option value="KZT">KZT</option>
+                <option value="LAK">LAK</option>
+                <option value="LBP">LBP</option>
+                <option value="LKR">LKR</option>
+                <option value="LYD">LYD</option>
+                <option value="MAD">MAD</option>
+                <option value="MDL">MDL</option>
+                <option value="MGA">MGA</option>
+                <option value="MKD">MKD</option>
+                <option value="MMK">MMK</option>
+                <option value="MNT">MNT</option>
+                <option value="MOP">MOP</option>
+                <option value="MRU">MRU</option>
+                <option value="MUR">MUR</option>
+                <option value="MVR">MVR</option>
+                <option value="MWK">MWK</option>
+                <option value="MXN">MXN</option>
+                <option value="MYR">MYR</option>
+                <option value="MZN">MZN</option>
+                <option value="NAD">NAD</option>
+                <option value="NGN">NGN</option>
+                <option value="NIO">NIO</option>
+                <option value="NOK">NOK</option>
+                <option value="NPR">NPR</option>
+                <option value="NZD">NZD</option>
+                <option value="OMR">OMR</option>
+                <option value="PEN">PEN</option>
+                <option value="PHP">PHP</option>
+                <option value="PKR">PKR</option>
+                <option value="PLN">PLN</option>
+                <option value="QAR">QAR</option>
+                <option value="RON">RON</option>
+                <option value="RSD">RSD</option>
+                <option value="RUB">RUB</option>
+                <option value="SAR">SAR</option>
+                <option value="SEK">SEK</option>
+                <option value="SGD">SGD</option>
+                <option value="THB">THB</option>
+                <option value="TRY">TRY</option>
+                <option value="TWD">TWD</option>
+                <option value="TZS">TZS</option>
+                <option value="UAH">UAH</option>
+                <option value="UGX">UGX</option>
+                <option value="UYU">UYU</option>
+                <option value="UZS">UZS</option>
+                <option value="VES">VES</option>
+                <option value="VND">VND</option>
+                <option value="ZAR">ZAR</option>
+                <option value="ZMW">ZMW</option>
+                <option value="ZWL">ZWL</option>
+              </select>
+            </div>
+            <div id="secondDropDownContainer">
+              <p id="secondDisplay">0</p>
+              <select required class="firstDropDown" id="currencySet2" name="currency">
+                <option value="USD">USD</option>
+                <option value="AED">AED</option>
+                <option value="AFN">AFN</option>
+                <option value="ALL">ALL</option>
+                <option value="AMD">AMD</option>
+                <option value="ANG">ANG</option>
+                <option value="AOA">AOA</option>
+                <option value="ARS">ARS</option>
+                <option value="AUD">AUD</option>
+                <option value="AWG">AWG</option>
+                <option value="AZN">AZN</option>
+                <option value="BAM">BAM</option>
+                <option value="BBD">BBD</option>
+                <option value="BDT">BDT</option>
+                <option value="BGN">BGN</option>
+                <option value="BHD">BHD</option>
+                <option value="BIF">BIF</option>
+                <option value="BMD">BMD</option>
+                <option value="BND">BND</option>
+                <option value="BOB">BOB</option>
+                <option value="BRL">BRL</option>
+                <option value="BSD">BSD</option>
+                <option value="BTN">BTN</option>
+                <option value="BWP">BWP</option>
+                <option value="BYN">BYN</option>
+                <option value="BZD">BZD</option>
+                <option value="CAD">CAD</option>
+                <option value="CDF">CDF</option>
+                <option value="CHF">CHF</option>
+                <option value="CLP">CLP</option>
+                <option value="CNY">CNY</option>
+                <option value="COP">COP</option>
+                <option value="CRC">CRC</option>
+                <option value="CUP">CUP</option>
+                <option value="CVE">CVE</option>
+                <option value="CZK">CZK</option>
+                <option value="DJF">DJF</option>
+                <option value="DKK">DKK</option>
+                <option value="DOP">DOP</option>
+                <option value="DZD">DZD</option>
+                <option value="EGP">EGP</option>
+                <option value="ERN">ERN</option>
+                <option value="ETB">ETB</option>
+                <option value="EUR">EUR</option>
+                <option value="FJD">FJD</option>
+                <option value="GBP">GBP</option>
+                <option value="GEL">GEL</option>
+                <option value="GHS">GHS</option>
+                <option value="GIP">GIP</option>
+                <option value="GMD">GMD</option>
+                <option value="GNF">GNF</option>
+                <option value="GTQ">GTQ</option>
+                <option value="GYD">GYD</option>
+                <option value="HKD">HKD</option>
+                <option value="HNL">HNL</option>
+                <option value="HRK">HRK</option>
+                <option value="HTG">HTG</option>
+                <option value="HUF">HUF</option>
+                <option value="IDR">IDR</option>
+                <option value="ILS">ILS</option>
+                <option value="INR">INR</option>
+                <option value="IQD">IQD</option>
+                <option value="IRR">IRR</option>
+                <option value="ISK">ISK</option>
+                <option value="JMD">JMD</option>
+                <option value="JOD">JOD</option>
+                <option value="JPY">JPY</option>
+                <option value="KES">KES</option>
+                <option value="KRW">KRW</option>
+                <option value="KWD">KWD</option>
+                <option value="KZT">KZT</option>
+                <option value="LAK">LAK</option>
+                <option value="LBP">LBP</option>
+                <option value="LKR">LKR</option>
+                <option value="LYD">LYD</option>
+                <option value="MAD">MAD</option>
+                <option value="MDL">MDL</option>
+                <option value="MGA">MGA</option>
+                <option value="MKD">MKD</option>
+                <option value="MMK">MMK</option>
+                <option value="MNT">MNT</option>
+                <option value="MOP">MOP</option>
+                <option value="MRU">MRU</option>
+                <option value="MUR">MUR</option>
+                <option value="MVR">MVR</option>
+                <option value="MWK">MWK</option>
+                <option value="MXN">MXN</option>
+                <option value="MYR">MYR</option>
+                <option value="MZN">MZN</option>
+                <option value="NAD">NAD</option>
+                <option value="NGN">NGN</option>
+                <option value="NIO">NIO</option>
+                <option value="NOK">NOK</option>
+                <option value="NPR">NPR</option>
+                <option value="NZD">NZD</option>
+                <option value="OMR">OMR</option>
+                <option value="PEN">PEN</option>
+                <option value="PHP">PHP</option>
+                <option selected  value="PKR">PKR</option>
+                <option value="PLN">PLN</option>
+                <option value="QAR">QAR</option>
+                <option value="RON">RON</option>
+                <option value="RSD">RSD</option>
+                <option value="RUB">RUB</option>
+                <option value="SAR">SAR</option>
+                <option value="SEK">SEK</option>
+                <option value="SGD">SGD</option>
+                <option value="THB">THB</option>
+                <option value="TRY">TRY</option>
+                <option value="TWD">TWD</option>
+                <option value="TZS">TZS</option>
+                <option value="UAH">UAH</option>
+                <option value="UGX">UGX</option>
+                <option value="UYU">UYU</option>
+                <option value="UZS">UZS</option>
+                <option value="VES">VES</option>
+                <option value="VND">VND</option>
+                <option value="ZAR">ZAR</option>
+                <option value="ZMW">ZMW</option>
+                <option value="ZWL">ZWL</option>
+              </select>
+            </div>
+          </div>
+          <div id="buttons">
+            <button id="clearAll">C</button>
+            <button id="cross"><i class="fa-solid fa-delete-left"></i></button>
+            <button class="digits">0</button>
+            <button class="digits">1</button>
+            <button class="digits">2</button>
+            <button class="digits">3</button>
+            <button class="digits">4</button>
+            <button class="digits">5</button>
+            <button class="digits">6</button>
+            <button class="digits">7</button>
+            <button class="digits">8</button>
+            <button class="digits">9</button>
+          </div>
+        </div>
+        <div id="historyContainer">
+          <div id="hisTitle">
+            <p>Histroy</p>
+            <i class="fa-solid fa-trash"></i>
+          </div>
+          <div id="history"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

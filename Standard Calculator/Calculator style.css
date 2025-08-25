@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Side options */
+
+#sideOptBar{
+  width: 30rem;
+  height: 47rem;
+  padding: 2rem;
+  position: absolute;
+  top: 50%;
+ left: -40rem;
+  transform: translateY(-50%);
+  
+  background-color:  #f4f4f4;
+ box-shadow: 0 0 2px rgba(0,0,0,0.4);
+  transition: 0.3s ease-in-out;
+}
+#sideOptBar.show{
+  left: 0 !important;
+}
+#sideOptBar ul{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+#sideOptBar ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+/* main */
+#largeContainer {
+  height: 100vh;
+}
+#barLines{
+  margin: 1rem 0 0 1rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+#barLines:active{
+transform: scale(0.8);
+}
+/* calcualtor */
+#container {
+  width: 35rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #f4f4f4;
+   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  box-shadow: 0 0 2px rgba(0,0,0,0.4);
+}
+/* navigtions */
+#navigations{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+#navigations div{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+#navigations div i{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+
+/* Input */
+#input {
+  width: 100%;
+  height: 10rem;
+  border: none;
+  background-color: transparent;
+  font-size: 3rem;
+  color: #333333;
+  padding: 0 1rem;
+  text-align: right;
+  overflow: hidden;
+}
+#input:focus{
+    outline: none;
+}
+/* Buttons */
+#buttons {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  place-items: center;
+row-gap: 1rem;
+  margin-top: 2.5rem;
+}
+#buttons button {
+  width: 8rem;
+  height: 4rem;
+  font-size: 1.8rem;
+  background-color: #e0e0e0;
+  border: none;
+  box-shadow:  0 0 1.5px rgba(0, 0, 0, 0.5);
+  font-weight: 450;
+  cursor: pointer;
+}
+#supscript {
+  font-size: 1.2rem;
+}
+button i{
+    font-size: 1.5rem;
+}
+.equal{
+    background-color: blueviolet !important;
+    color: white;
+}
+#cross i{
+    font-size: 1.8rem;
+}
+button:active{
+background-color: #d1cccc;
+}
+/* History */
+#historyContainer{
+  width: 20rem;
+  height: 47rem;
+  background:  #f4f4f4;
+   box-shadow: 0 0 2px rgba(0,0,0,0.4);
+  overflow-y: auto;
+  position: absolute;
+  top: 50%;
+  right: -30rem;
+  transform: translateY(-50%);
+  transition: right 0.3s ease-in-out;
+  color: rgb(44, 38, 38);
+  font-weight: bold;
+}
+#hisTitle{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+#hisTitle p{
+  margin-bottom: 1rem;
+}
+#hisTitle i{
+  font-size: 1.8rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.2s ease-in-out;
+}
+#hisTitle i:active{
+transform: scale(0.8);
+}
+#history{
+  text-align: center;
+}
+#historyIcon{
+  cursor: pointer;
+}
+#historyContainer.show{
+right: 0;
+}
+
+/* Media Queries */
+
+@media (max-width:375px){
+  #container{
+    width: 85%;
+    height: 93%;
+  }
+  #buttons button{
+width: 6rem;
+  }
+}
+
+@media (max-width:320px){
+  #navigations h3{
+    font-size: 1.6rem;
+  }
+  #navigations div{
+   gap: 1rem;
+  }
+}
+@media (max-width:300px){
+  #buttons button{
+width: 5rem;
+  }
+}
+@media (max-width:270px){
+  #navigations{
+    padding: 0.2rem;
+  }
+  #navigations h3{
+    margin-right: 0.5rem;
+    white-space: normal;
+  }
+  #buttons button{
+    width: 4rem;
+height: 3rem;
+  }
+  #input{
+height: 7rem;
+  }
+}
