@@ -80,7 +80,7 @@ A simple web app that combines:
 ## 🛣️ Roadmap
 - [ ] Add Scientific Calculator  
 - [ ] Add Temperature Converter
-- [ ] 
+
 ---
 
 ## 🤝 Contributing
