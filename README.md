@@ -54,7 +54,7 @@ A simple web app that combines:
 ---
 
 ## 🌐 Live Demo
-[Click here to try it out](https://your-username.github.io/all-in-one-calculator/)
+[Click here to try it out](https://muzammil-frontend-web-projects.github.io/Multi-Calculator/)
 
 ---
 
