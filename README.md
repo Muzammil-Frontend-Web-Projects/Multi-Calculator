@@ -25,7 +25,7 @@ A simple web app that combines:
 - [Live Demo](#-live-demo)
 - [Screenshots](#-screenshots)
 - [Features](#-features)
-- [Roadmap](#-roadmap)
+- [Roadmap](#roadmap)
 - [Contributing](#-contributing)
 - [License](#-license)
 - [Contact](#-contact)
