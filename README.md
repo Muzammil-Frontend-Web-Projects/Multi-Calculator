@@ -18,7 +18,7 @@ A simple web app that combines:
 
 ---
 
-## 📑 Table of Contents
+### 📑 Table of Contents
 - [Tech Stack](#-tech-stack)
 - [How to Use](#-how-to-use)
 - [Live Demo](#-live-demo)
@@ -31,14 +31,14 @@ A simple web app that combines:
 
 ---
 
-## 🚀 Tech Stack
+### 🚀 Tech Stack
 ![HTML5](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5)
 ![CSS3](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3)
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript)
 
 ---
 
-## 📂 How to Use
+### 📂 How to Use
 1. Clone the repo
    ```bash
    git clone https://github.com/your-username/all-in-one-calculator.git
@@ -51,19 +51,19 @@ A simple web app that combines:
 
 ---
 
-## 🌐 Live Demo
+### 🌐 Live Demo
 [Click here to try it out](https://muzammil-frontend-web-projects.github.io/Multi-Calculator/)
 
 ---
 
-## 📸 Screenshots
+### 📸 Screenshots
 | Home Page | Currency Converter | Weight Converter |
 |-----------|-------------------|------------------|
 | ![Home](./screenshots/home.png) | ![Currency](./screenshots/currency.png) | ![Weight](./screenshots/weight.png) |
 
 ---
 
-## ✨ Features
+### ✨ Features
 - 🧮 Perform basic arithmetic operations.  
 - ⚖️ Convert weight between multiple units.  
 - 💱 Convert currencies with live exchange rates.  
@@ -75,24 +75,24 @@ A simple web app that combines:
 
 ---
 
-## Roadmap
+### Roadmap
 - [ ] Add Scientific Calculator  
 - [ ] Add Temperature Converter
 
 ---
 
-## 🤝 Contributing
+### 🤝 Contributing
 Contributions, issues, and feature requests are welcome!  
 Feel free to fork this repository and submit pull requests.
 
 ---
 
-## 📜 License
+### 📜 License
 This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
-## 📬 Contact
+### 📬 Contact
  [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:cornerofcodes00@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-muzammil-irshad-05b863333)
 [![TikTok](https://img.shields.io/badge/TikTok-000000?logo=tiktok&logoColor=white)](https://www.tiktok.com/@cornerofcodes)
