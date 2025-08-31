@@ -76,7 +76,7 @@ A simple web app that combines:
 
 ---
 
-## 🛣️ Roadmap
+## Roadmap
 - [ ] Add Scientific Calculator  
 - [ ] Add Temperature Converter
 
