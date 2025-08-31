@@ -3,7 +3,6 @@
 </p>
 
 # All-in-One Calculator
-
 A simple web app that combines:
 - 🧮 Standard Calculator  
 - ⚖️ Weight Converter  
