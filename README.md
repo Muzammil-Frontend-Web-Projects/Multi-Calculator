@@ -53,8 +53,8 @@ A simple web app that combines:
 ---
 
 ## 🌐 Live Demo
-[Click here to try it out](https://muzammil-frontend-web-projects.github.io/Multi-Calculator/Standard%20Calculator/Calculator%20index.html
-)
+[Click here to try it out](https://muzammil-frontend-web-projects.github.io/Multi-Calculator/Standard%20Calculator/Calculator%20index.html)
+
 
 ---
 
